@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>2DRAW</title>
+    <link rel="icon" type="image/x-icon" href="images/2DRAW fulll edited.jpg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+    <button class="Settings_Toggler" id="Settings_Toggler_Id"><i class="bi bi-gear" id="Settings_Gear_Id"></i></button>
+    <div class="Settings" id="Settings_Id">
+        <div class="Setting_OptionWeb WebLogo" id="WebLogo_Id"><img class="WebLogoImg" src="images/2DRAW ful.png" alt=""></div>
+        <div class="Setting_Option Setting3" id="Setting3_Id">Help</div>
+        <div class="Setting_Option Setting4" id="Setting4_Id">Log In</div>
+        <div class="Setting_Option Setting5" id="Setting5_Id">Sign Up</div>
+        <div class="Setting_Option Setting6" id="Setting6_Id">History</div>
+        <div class="Setting_Option Setting7" id="Setting7_Id">Langauge</div>
+        <div class="Setting_Option Setting1" id="Setting1_Id">Customize</div>
+        <div class="Setting_Option Setting2" id="Setting2_Id">Backgrounds</div>
+        <div class="Setting_Option Download_button Setting8" id="Setting8_Id">Download image</div> 
+        <label class="downloadImage_label" for="Setting9_Id">Upload Image<input type="file" class="Setting_Option Download_button Setting9" id="Setting9_Id"></label> 
+    </div>
+
+<div class="outter_costumize" id="outter_costumize_Id">
+<button class="Customize_toggler" id="Customize_toggler_Id"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+<div class="Customize" id="Customize_Id">
+    <div id="customize_colors_Id" class="costumize_options">Edit Colors</div>
+    <div id="customize_background_Id" class="costumize_options option22">Edit Backgrounds</div>
+    <div id="customize_toolBar_Id" class="costumize_options">Edit Tool Bar</div>
+    <div id="customize_history_Id" class="costumize_options">Edit History</div>
+</div>
+</div>
+
+<div class="customize_background_outter" id="customize_background_outter_Id">
+    <button class="toggle_background_image"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+
+    <div class="customize_background_inner" id="customize_background_inner">
+    <h5 class="customize_background_rules">Enter source link of imgaes below</h5>
+
+    <div class="customize_background">
+        <textarea class="image_link_textarea" id="image_link_textarea_Id" cols="37" placeholder="Image address here..."></textarea>
+        <button class="subbmit_image_link">Set as costume image</button>
+    </div>
+</div>
+</div>
+
+<div class="editColors_outter" id="editColors_outter_Id">
+<button class="editColor_close" id="editColor_close_Id"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+<div class="editColor" id="editColor_Id">
+    <h4 class="edit_rules">Click color-box to edit</h4>
+    <div class="edit_color_one color_edit_variantes"><p class="color_edit_p cep1">Edit Color</p><div class="color_display" id="color_display1_Id" style="background-color:  black"></div></div><div class="resetColor reseColor1" id="reset1">Reset</div>
+    <div class="edit_color_two color_edit_variantes"><p class="color_edit_p cep2">Edit Color</p><div class="color_display" id="color_display2_Id" style="background-color:  red"></div></div><div class="resetColor reseColor2" id="reset2">Reset</div>
+    <div class="edit_color_three color_edit_variantes"><p class="color_edit_p cep3">Edit Color</p><div class="color_display" id="color_display3_Id" style="background-color:  yellow"></div></div><div class="resetColor reseColor3" id="reset3">Reset</div>
+    <div class="edit_color_four color_edit_variantes"><p class="color_edit_p cep4">Edit Color</p><div class="color_display" id="color_display4_Id" style="background-color:  green "></div></div><div class="resetColor reseColor4" id="reset4">Reset</div>
+    <div class="edit_color_five color_edit_variantes"><p class="color_edit_p cep5">Edit Color</p><div class="color_display" id="color_display5_Id" style="background-color:  blue "></div></div><div class="resetColor reseColor5" id="reset5">Reset</div>
+</div>
+</div>
+
+<div class="ColorEditGrid" id="ColorEditGrid_Id">
+    <div class="color-picker-editor"></div>
+    <div class="color-indicator-editor" id="color-indicator-editor"></div>
+    <div class="color-indicator-editor1" id="color-indicator-editor1"></div>
+    <div class="color-indicator-editor2" id="color-indicator-editor2"></div>
+    <div class="color-indicator-editor3" id="color-indicator-editor3"></div>
+    <div class="color-indicator-editor4" id="color-indicator-editor4"></div>
+    <div id="color-picker-editor"></div>
+</div>
+
+
+<div class="DownloadImage_Choice" id="DownloadImage_Choice_Id">
+    <div class="DownloadImage_Inner">
+        <h2 class="Download_">Do you want to download image?</h2>
+        <div class="Button_Yes_No">
+            <button class="Download_Yes buttonYN">Yes</button>
+            <button class="Download_No buttonYN">No</button>
+        </div>
+    </div>
+</div>
+
+    <div class="Backgrounds_outter" id="Backgrounds_outter_Id">
+    <button class="Settings_Backgrounds_Toggler" id="Settings_Backgrounds_Toggler_Id"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+    <div class="Backgrounds" id="Backgrounds_Id">
+        <div class="Background Bc1" style="background-color: white;">White</div>
+        <div class="Background Bc2" style="background-color: #ececec;">Grey</div>
+        <div class="Background Bc3" style="background-color: #CAE7DF;">Greenish blue</div>
+        <div class="Background Bc4" style="background-color: azure;">Azure</div>
+        <div class="Background Bc5" style="background-color: #ffe7e7;">Skin color</div>
+        <div class="Background Bc6" style="background-image: url('images/OldPaper.png');">Old paper</div>
+        <div class="Background Bc7" style="background-image: url('images/Screenshot\ 2022-05-31\ 203037.png')">Math paper</div>
+        <div class="Background Bc8" id="Costume_Background_Id">Costume</div>
+    </div>
+    </div>
+
+
+    <div class="editToolBar_outter" id="editToolBar_outter_Id">
+        <button class="editToolBar_close" id="editToolBar_close_Id"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+        <div class="editToolBar" id="editToolBar_Id">
+            <div class="toolBarColor tbc1" style="background-color: white;">White</div>
+            <div class="toolBarColor tbc2" style="background-color: #ececec;">Grey</div>
+            <div class="toolBarColor tbc3" style="background-color: #CAE7DF;">Greenish blue</div>
+            <div class="toolBarColor tbc4" style="background-color: azure;">Azure</div>
+            <div class="toolBarColor tbc5" style="background-color: #ffe7e7;">Skin color</div>
+            <div class="toolBarColor tbc6" style="background-image: url('images/OldPaper.png');">Old paper</div>
+            <div class="toolBarColor tbc7" style="background-image: url('images/Screenshot\ 2022-05-31\ 203037.png')">Math paper</div>
+        </div>
+        </div> <!-- current here -->
+
+
+    <div id="SignUpOutter">
+    <div class="SignUp" id="SignUp_Id">
+        <p class="nameP">Your Name</p>
+        <input type="text" class="name SignUp_Inputs" required placeholder="Your Name">
+        <p class="lastnameP">Your Lastname</p>
+        <input type="text" class="lastname SignUp_Inputs" required placeholder="Your Lastname">
+        <p class="emailP">Your Email</p>
+        <input type="email" class="email SignUp_Inputs" required placeholder="Your Email">
+        <p class="passwordP">Your Email Password</p>
+        <input type="password" class="password SignUp_Inputs" required placeholder="Your Email Password">  
+        <p class="phonenumberP">Your Phone Number</p>
+        <input type="number" class="phonenumber SignUp_Inputs" required placeholder="Your Phone Number">
+    <div class="button_align">
+        <button class="submit">submit</button>
+    </div>
+    </div>
+        <button class="exit_SignUp"><i class="bi bi-x-lg Backgrounds_Exit" id="Backgrounds_Exit_Id"></i></button>
+    </div>
+
+    <!-- <div class="TermsOfPolicy" id="TermsOfPolicy_Id">
+        <div class="Centerisor">
+            <h2 class="Heading_Terms_Of_Policy">Terms of Policy</h2><br><br>
+            <button class="ExitTermsOfPrivacy"><i class="bi bi-x-lg SignUp_Exit" id="SignUp_Exit_Id"></i></button>
+            <p class="Policy">
+                These Website Standard Terms And Conditions 
+                (these “Terms” or these “Website Standard 
+                Terms And Conditions”) contained herein on 
+                this webpage, shall govern your use of this 
+                website, including all pages within this 
+                website (collectively referred to herein 
+                below as this “Website”). These Terms 
+                apply in full force and effect to your 
+                use of this Website and by using this 
+                Website, you expressly accept all terms
+                 and conditions contained herein in full.
+                  You must not use this Website, if you 
+                  have any objection to any of these 
+                  Website Standard Terms And Conditions. 
+                   and/or its licensors own all rights 
+                   to the intellectual property and material 
+                   contained in this Website, and all such
+                    rights are reserved. You are granted a 
+                    limited license only, subject to the 
+                    restrictions provided in these Terms,
+                     for purposes of viewing the material
+                      contained on this Website. You are 
+                      expressly and emphatically restricted
+                       from all of the following: publishing 
+                       any Website material in any media; 
+                       selling, sublicensing and/or otherwise
+                        commercializing any Website material;
+                         publicly performing and/or showing 
+                         any Website material; using this 
+                         Website in any way that is, or may be, 
+                         damaging to this Website; using this
+                          Website in any way that impacts user 
+                          access to this Website; using this Website
+                           contrary to applicable laws and 
+                           regulations, or in a way that causes,
+                            or may cause, harm to the Website, 
+                            or to any person or business entity;
+                             engaging in any data mining, data
+                              harvesting, data extracting or 
+                              any other similar activity in 
+                              relation to this Website, or 
+                              while using this Website.
+            </p>
+        </div>
+    </div> -->
+
+    <canvas id="canvas"></canvas>
+
+    <i class="bi bi-brush Brush" id="Brush_Id"></i>
+    <i class="bi bi-eraser Eraser" id="Eraser_Id"></i>
+    
+<div class="Options" id="Options_Id">
+      <button class="Color_Options_DropDown Option_Btns cstAnimationBtn" id="Color_Options_DropDown_Id"><i class="bi bi-droplet-half ColorSvg" id="ColorSvg_Id"></i></button>
+      <div class="Color_Options" id="Color_Options_Id">
+          <button class="Color color1" id="color1_Id" style="background-color: black"></button>
+          <button class="Color color2" id="color2_Id" style="background-color: Red"></button>
+          <button class="Color color3" id="color3_Id" style="background-color: Yellow"></button>
+          <button class="Color color4" id="color4_Id" style="background-color: green"></button>
+          <button class="Color color5" id="color5_Id" style="background-color: Blue"></button>
+          <button class="color6" id="color6_Id" style="background-image: url(images/th.jpg)"></button>
+      </div>
+
+    <div class="ColorMain" id="ColorMain_Id">
+        <div class="color-picker"></div>
+        <div class="color-indicator" id="color-indicator"></div>
+        <div id="color-picker"></div>
+    </div>
+    
+      <button class="Stroke_Size_DropDown Option_Btns cstAnimationBtn"><i class="bi bi-dash-lg"></i></button>
+      <div class="Size_Options" id="Size_Options_Id">
+          <button class="Sizes size1">2</button>
+          <button class="Sizes size2">4</button>
+          <button class="Sizes size3">6</button>
+          <button class="Sizes size4">8</button>
+          <button class="Sizes size5">10</button>
+          <button class="Sizes size6">12</button>
+          <button class="Sizes size7">14</button>
+          <button class="Sizes size8">16</button>
+          <button class="Sizes size9">18</button>
+          <button class="Sizes size10">20</button>
+          <button class="size11">...</button>
+          <input type="number" class="SizeInput" placeholder="Configure size" id="SizeInput_Id">
+      </div>
+    
+      <i class="bi bi-zoom-in ZoomInLogoFollow" id="ZoomInLogoFollow_Id"></i>
+      <i class="bi bi-zoom-out ZoomOutLogoFollow" id="ZoomOutLogoFollow_Id"></i>
+    
+      <button class="Clear_Canvas Option_Btns" id="Clear_Canvas_Id"><i class="bi bi-x-square"></i></button>
+      <button class="Undo_Canvas_Drawing Option_Btns" id="Undo_Canvas_Drawing_Id"><i class="bi bi-arrow-counterclockwise"></i></button>
+      <button class="Redo_Canvas_Drawing Option_Btns" id="Redo_Canvas_Drawing_Id"><i class="bi bi-arrow-clockwise"></i></button>
+      <button class="Erase_Canvas_Drawing Option_Btns" id="Erase_Canvas_Drawing_Id"><i class="bi bi-eraser"></i></button>
+      <button class="Paint_Canvas_Drawing Option_Btns" id="Paint_Canvas_Drawing_Id"><i class="bi bi-brush"></i></button>
+      <button class="Zoom_In_Out Option_Btns" id="Zoom_In_Out_Id"><i class="bi bi-zoom-in ZoomInLogo"></i></button>
+    
+      <button class="Shapes Option_Btns" id="Shapes_Id"><i class="bi bi-triangle-half"></i></button>
+      <div class="ShapesDiv cstAnimationBtn" id="ShapesDiv_Id">
+          <button class="Shape Squear"><i class="bi bi-square"></i></button>
+          <button class="Shape Triangle"><i class="bi bi-triangle"></i></button>
+          <button class="Shape Circle"><i class="bi bi-circle"></i></button>
+          <button class="Shape Line"><i class="bi bi-slash-lg"></i></button>
+      </div>
+
+      <div class="Background_Board" id="Background_Board_Id"></div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
